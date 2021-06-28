@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## This functions first looks for a "stored" value , which if not availbel, the inverse is calculated
+## This functions first looks for a "stored" value , which if not availabel, the inverse is calculated
 cacheSolve <- function(x, ...) {
                 i <- x$getinv()
                 if(!is.null(i)) {
